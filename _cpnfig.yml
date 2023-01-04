@@ -1,0 +1,9 @@
+# Site settings
+title: solana spot
+description: "A website built with Jekyll and SCSS"
+
+# Build settings
+markdown: kramdown
+sass:
+  sass_dir: _sass
+  style: compressed
