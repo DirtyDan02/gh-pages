@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Solana Raffle</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Solana Raffle</h1>
+  <p>Welcome to the Solana Raffle! To enter, simply purchase a ticket by sending Solana tokens to the following address:</p>
+  <pre id="raffleAddress"></pre>
+  <p>The winner will be chosen at random and will be announced on this page. Good luck!</p>
+  <h2>Current Participants</h2>
+  <table id="participantsTable">
+    <tr>
+      <th>Name</th>
+      <th>Address</th>
+      <th>Ticket Count</th>
+    </tr>
+  </table>
+  <script src="https://unpkg.com/@solana/web3.js"></script>
+  <script src="client.js"></script>
+</body>
+</html>
